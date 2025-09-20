@@ -17,5 +17,3 @@ export async function loader({ request }: LoaderFunctionArgs) {
   // Handle other .well-known requests
   return new Response(null, { status: 404 });
 }
-
-// No default export = resource route (as per official docs)
