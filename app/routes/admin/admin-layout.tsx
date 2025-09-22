@@ -11,7 +11,7 @@ function AdminLayout() {
           <NavItems />
         </SidebarComponent>
       </aside>
-      <aside className="children">
+      <aside className="children bg-light-400">
         <Outlet />
       </aside>
     </div>

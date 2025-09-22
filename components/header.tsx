@@ -9,7 +9,7 @@ interface Props {
 const Header = ({ title, description }: Props) => {
   const location = useLocation();
   return (
-    <header className="header">
+    <header className="flex flex-col g-4 px-4 pt-12 lg:pt-5 pb-5 bg-light-200">
       <article>
         <h1
           className={cn(
